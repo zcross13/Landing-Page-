@@ -10,6 +10,7 @@ footer {
 }
 
 header {
+    padding: 0 40px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -29,27 +30,64 @@ header {
 }
 
 /* Section One */
+
 .main-one {
-    border: solid blue 4px;
+    display: flex;
+    padding: 30px 40px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.imgContainer {
+    flex-basis: 50%;
+    margin-left: 12px;
+}
+
+img {
+    height: 200px;
+    width: 310px;
 }
 
 .main-title {
-    border: solid green 4px;
+    font-size: 48px;
+    margin: 0;
 }
 
 .main-subtext {
-    border: solid red 4px;
+    margin: 0;
 }
 
 .mainBtn {
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882f6;
+}
+
+
+/* .main-one {
+    
+    padding: 0 40px;
+
+    display: flex;
+    justify-content: space-between;
     border: solid blue 4px;
+}
+
+
+.hero {
+    border: solid red 4px;
 }
 
 .imgOne {
     border: solid green 4px;
-}
+} */
+
+
 
 /* Section  Two */
+/*
 .main-two {
     border: solid red 4px;
 }
