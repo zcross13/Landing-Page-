@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+/* Section One */
+.main-one {
+    border: solid blue 4px;
+}
+
+.main-title {
+    border: solid green 4px;
+}
+
+.main-subtext {
+    border: solid red 4px;
+}
+
+.mainBtn {
+    border: solid blue 4px;
+}
+
+.imgOne {
+    border: solid green 4px;
+}
+
+/* Section  Two */
+.main-two {
+    border: solid red 4px;
+}
+
+.title-two {
+    border: solid blue 4px;
+}
+
+.container {
+    border: solid green 4px;
+}
+
+.main-three {
+    border: solid red 4px;
+}
+
+.text {
+    border: solid blue 4px;
+}
+
+.quote {
+    border: solid green 4px;
+}
+
+.main-four {
+    border: solid red 4px;
+}
+
+.fourTitle {
+    border: solid blue 4px;
+}
+
+.fourText {
+    border: solid green 4px;
+}
+
+.fourBtn {
+    border: solid red 4px;
+}
+
+.footer {
+    border: solid blue 4px;
+}
+
+*/
