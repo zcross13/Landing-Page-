@@ -110,7 +110,20 @@ img {
 
 
 .main-three {
-    border: solid red 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    background-color: #E5E7EB;
+    font-size: 36px
+}
+
+.text {
+    font-style: italic;
+}
+
+.quote {
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 /*
