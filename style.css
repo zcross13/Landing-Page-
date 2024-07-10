@@ -1,162 +1,31 @@
+* {
+    outline: 2px solid red;
+}
+
 body {
+    background-color: aquamarine;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
-header,
-footer {
-    background-color: #1F2937;
-}
 
+
+/* Hero section*/
+/* Hero Header */
 header {
-    padding: 0 40px;
-    background-color: #1F2937;
+    padding: 20px 140px;
     display: flex;
     justify-content: space-between;
-}
-
-.logo {
-    flex: 1;
-    font-size: 24px;
     color: #F9FAF8;
+    background-color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .links {
     display: flex;
-    gap: 16px;
-    font-size: 18px;
-    color: #E5E7EB
-}
-
-/* Section One */
-
-.main-one {
-    display: flex;
-    padding: 30px 40px;
-    background-color: #1F2937;
-    color: #F9FAF8;
-}
-
-.imgContainer {
-    flex-basis: 50%;
-    margin-left: 12px;
-}
-
-img {
-    height: 200px;
-    width: 310px;
-}
-
-.main-title {
-    font-size: 48px;
-    margin: 0;
-}
-
-.main-subtext {
-    margin: 0;
-}
-
-.mainBtn {
-    margin-top: 10px;
-    padding: 5px 15px;
-    border-radius: 10px;
-    color: #F9FAF8;
-    background-color: #3882f6;
-}
-
-/* Section  Two */
-
-.main-two {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px;
+    gap: 50px;
 }
 
 
-.title-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
-}
 
-.container {
-    display: flex;
-    justify-content: center;
-    gap: 52px;
-}
-
-.box {
-    height: 100px;
-    width: 100px;
-    border-radius: 10%;
-    border: solid blue 4px;
-}
-
-.info {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    align-self: center;
-}
-
-
-.main-three {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px;
-    background-color: #E5E7EB;
-    font-size: 36px
-}
-
-.text {
-    font-style: italic;
-}
-
-.quote {
-    align-self: flex-end;
-    font-weight: bold;
-}
-
-/*
-
-
-
-
-.text {
-    border: solid blue 4px;
-}
-
-.quote {
-    border: solid green 4px;
-}
-
-.main-four {
-    border: solid red 4px;
-}
-
-.fourTitle {
-    border: solid blue 4px;
-}
-
-.fourText {
-    border: solid green 4px;
-}
-
-.fourBtn {
-    border: solid red 4px;
-}
-
-.footer {
-    border: solid blue 4px;
-}
-
-*/
+/* Quote section */
