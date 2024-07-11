@@ -17,8 +17,12 @@ header {
     justify-content: space-between;
     color: #F9FAF8;
     background-color: #1f2937;
-    font-weight: bold;
     font-size: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .links {
@@ -26,6 +30,41 @@ header {
     gap: 50px;
 }
 
+/* Hero Container */
 
+.main-one {
+    padding: 140px 140px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.main-section {
+    padding-left: 5%;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.main-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.mainBtn {
+    border-radius: 7px;
+    background-color: #3882F6;
+    font-size: 20px;
+    padding: 10px 28px;
+    color: #F9FAF8;
+}
+
+img {
+
+    max-width: 100%;
+}
 
 /* Quote section */
